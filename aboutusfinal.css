@@ -1,0 +1,111 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+      background-color: #aaaaaa;
+
+    }
+    body {
+       width: 100%;
+       height: relative;
+       background: #DCDFE3;
+    }
+
+    header {
+        width: 405px;
+        height: 405px;
+        border-radius: 395px;
+        border: 15px, solid #43990d;
+        background: url(https://c1.staticflickr.com/7/6154/6173129603_200ac6c790_b.jpg);
+        background-size: 550px, contain;
+        display: block;
+        color: #ffb10c;
+        font-size: 18pt;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+}
+    .TitleLine1{
+        transform: skewX(-35deg);
+        text-align: left;
+}
+    .TitleLine2{
+        transform: skewX(-35deg);
+}
+    .TitleLine3{
+        transform: skewX(-35deg);
+        text-align: right;
+}
+
+    nav {
+        float: left;
+        width: 100%;
+        height: relative;
+    }
+    nav ul {
+        padding: 20px;
+        background-color: #43990D;
+        border: 10px solid #FFB10C;
+        float: left;
+        border-bottom:;
+        list-style-type: none;
+        width: 100%;
+        height: relative;
+    }
+    nav li {
+        float: left;
+
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: center;
+
+    }
+    a {
+        color: blue;
+    }
+    section {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    .highlighted {
+      background-color: #43990D;
+      border: 10px solid #FFB10C;
+
+    }
+    .highlighted2 {
+      background-color: #FFB10C;
+      border: 10px solid #43990D;
+
+    }
+    .highlighted3 {
+      background-color: #43990D;
+      border: 10px solid #FFB10C;
+    }
+
+
+    footer {
+        width: 800px;
+        background-color: #43990D;
+        color:red;
+        clear: both;
+        display: block;
+        align-self: auto;
+        width: 100%;
+        height: relative;
+    }
+img  {
+    height: relative;
+    width: relative;
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+
+}
